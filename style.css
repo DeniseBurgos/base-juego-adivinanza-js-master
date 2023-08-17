@@ -1,0 +1,89 @@
+body {
+  background-image: url(/assets/img/aesthsky.jpg);
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.input-container input {
+  margin-right: 10px;
+}
+
+.input-container button {
+  background-color: #ae13f0;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: poppins;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #333;
+  font-family: poppins;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: poppins;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #ae13f0;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: poppins;
+  display: inline-block; /* Cambia la visualización a "inline-block" */
+  vertical-align: middle; /* Alinea verticalmente con otros elementos */
+}
+
+h4 {
+  font-family: poppins;
+}
+
+#mensaje {
+  color: #333;
+  font-family: poppins;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Estilos para el botón "Iniciar juego nuevo" */
+#resetButton {
+  background-color: #ce79f5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#resetButton:hover {
+  background-color: #ce79f5;
+}
+
+/* Estilos adicionales si es necesario */
